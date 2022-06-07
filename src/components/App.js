@@ -5,7 +5,7 @@ import VideoDetail from "./VideoDetails";
 import useVideos from "../hooks/useVideo";
 
 const App = () => {
-
+     console.log(this);
     const [selectedVideo, setSelectedVideo] = useState(null);
     const [videos, search] = useVideos('building');
 
